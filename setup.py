@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'pyarithcalc',
   packages = ['pyarithcalc'],
-  version = '0.2',
+  version = '0.5',
   license='MIT',
   description = 'Simple Arithmetic Calculator',
   author = 'Sourangshu Pal',
   author_email = 'sourangshu@ineuron.ai',
   url = 'https://github.com/sourangshupal/pyarithcalc',
-  download_url = 'https://github.com/sourangshupal/pyarithcalc/releases/download/0.4/pyarithcalc-0.4.tar.gz',
+  download_url = 'https://github.com/sourangshupal/pyarithcalc/releases/download/0.5/pyarithcalc-0.5.tar.gz',
   keywords = ['calculator'],
   install_requires=[
           'flask',
@@ -32,6 +32,6 @@ setup(
   ],
   entry_points={
         "console_scripts": [
-            "calc = pyarithcalc/app:start_app",
+            "calc = pyarithcalc.app:start_app",
         ]},
 )
