@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'pyarithcalc',
   packages = ['pyarithcalc'],
-  version = '0.1',
+  version = '0.2',
   license='MIT',
   description = 'Simple Arithmetic Calculator',
   author = 'Sourangshu Pal',
