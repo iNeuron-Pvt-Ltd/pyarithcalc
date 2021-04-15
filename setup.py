@@ -8,7 +8,7 @@ setup(
   author = 'Sourangshu Pal',
   author_email = 'sourangshu@ineuron.ai',
   url = 'https://github.com/sourangshupal/pyarithcalc',
-  download_url = 'https://github.com/sourangshupal/pyarithcalc/releases/download/0.1/pyarithcalc-0.1.tar.gz',
+  download_url = 'https://github.com/sourangshupal/pyarithcalc/releases/download/0.4/pyarithcalc-0.4.tar.gz',
   keywords = ['calculator'],
   install_requires=[
           'flask',
