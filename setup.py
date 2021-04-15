@@ -32,6 +32,6 @@ setup(
   ],
   entry_points={
         "console_scripts": [
-            "calc = app:start_app",
+            "calc = pyarithcalc/app:start_app",
         ]},
 )
